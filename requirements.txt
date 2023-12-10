@@ -1,6 +1,7 @@
 streamlit
 pandas
-io
 langchain
 pypdf
 kor
+xlsxwriter
+pyxlsb
