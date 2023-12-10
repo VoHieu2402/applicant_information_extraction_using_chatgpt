@@ -4,3 +4,4 @@ io
 langchain
 pypdf
 kor
+openai
