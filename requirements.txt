@@ -1,6 +1,5 @@
 streamlit
 pandas
-io
 langchain
 pypdf
 kor
