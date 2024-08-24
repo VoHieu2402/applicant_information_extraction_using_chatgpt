@@ -164,8 +164,9 @@ if OPENAI_API_KEY:
                 page = reader.pages[i]
                 text = page.extract_text()
                 input += text
-            response = chain.run(input)
-            df = pd.DataFrame(response["data"]["CV"])
+            # response = chain.run(input)
+            response = chain.invoke(input)["data"]["CV"][0]
+            df = pd.DataFrame(pd.Series(response)
             lst_pd_cv.append(df)
             
         df_result = pd.concat(lst_pd_cv)
