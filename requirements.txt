@@ -6,3 +6,4 @@ pypdf
 kor
 xlsxwriter
 pyxlsb
+langchain-community
